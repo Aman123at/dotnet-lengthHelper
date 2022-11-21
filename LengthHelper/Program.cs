@@ -16,9 +16,12 @@ namespace LengthHelper
 
             // taking user input in console using ReadLine method
             string mystr = Console.ReadLine();
+
+            MyLengthFinder myLengthFinder = new MyLengthFinder();
+            
             
             // taking return value of findLength method in a variable
-            int length = findLength(mystr);
+            int length = myLengthFinder.findLength(mystr);
 
             // using template literal to inject variable's value in string
             Console.WriteLine($"Length of string is : {length}");
@@ -28,10 +31,7 @@ namespace LengthHelper
         }
 
 
-        // findLength Method to calculate length of string
-        static int findLength(string s)
-        {
-            return s.Length;
-        }
+       
+        
     }
 }

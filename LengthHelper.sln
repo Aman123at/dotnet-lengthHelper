@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthHelper", "LengthHelper\LengthHelper.csproj", "{6D981973-A54F-4C78-8E94-627AE0F9FC2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthHelperTest", "LengthHelperTest\LengthHelperTest.csproj", "{9BD852F2-7A76-4678-8DC7-25EAD0CF365F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6D981973-A54F-4C78-8E94-627AE0F9FC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D981973-A54F-4C78-8E94-627AE0F9FC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D981973-A54F-4C78-8E94-627AE0F9FC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD852F2-7A76-4678-8DC7-25EAD0CF365F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD852F2-7A76-4678-8DC7-25EAD0CF365F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD852F2-7A76-4678-8DC7-25EAD0CF365F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD852F2-7A76-4678-8DC7-25EAD0CF365F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
